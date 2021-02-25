@@ -1,3 +1,7 @@
 body {
   background-color: #FFFCF8;
 }
+
+#navigation {
+  z-index: 1000;
+}
