@@ -28,6 +28,12 @@ body {
   color: #0d6efd
 }
 
+/* landing page */
+.display-5 {
+  font-family: Helvetica;
+  line-height: 130%
+}
+
 /* about me  */
 .intro p {
   font-family: 'Fira Sans', sans-serif;
