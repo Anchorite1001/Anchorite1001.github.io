@@ -46,7 +46,7 @@
   <div id="fullpage" class = 'container'>
 
     <!-- landing section -->
-    <div data-anchor = 'page1' class="section">
+    <div data-anchor = 'page1' class="section landing">
       <br>
       <p class='display-5'><strong>Yang Wu</strong> is a web developer with a sociology background based in Sydney, Australia. She specialises in building highly-interactive and aesthetic web applications with tools like React, Ruby on rails, Node.js and Bootstrap.</p>
       <br>
@@ -55,7 +55,7 @@
     </div>
 
     <!-- about me section -->
-    <div data-anchor = 'page2' class="section">
+    <div data-anchor = 'page2' class="section aboutme">
       <h1>💎 About Me</h1>
       <hr>
       <div class="intro">
@@ -63,15 +63,15 @@
         <p>🌇 During my honours year, I self-taught HTML and CSS as a hobby. After I submitted my thesis, I realised how I enjoyed building programs and websites one step at a time and then seeing it works, so I decided to commit to a fulltime software engineering bootcamp at <a href="https://generalassemb.ly/">General Assembly</a>. Fast-forward to the present. Now that I am more skilled at realising ideas as functional web applications, I want to utilise my coding skills and sociological mind in my next adventure. I am inspired by progressive ideas, beautiful designs and ethical approaches. Some topics I am interested in: <em>Interactive web development | Creative coding | Web accessibility | Data journalism | New media | Diaspora | Feminism | Cultural criticism</em>.</p>
         <p>👩‍💻 I am actively looking for a role of junior frontend / full-stack developer in Sydney / remote, and I am also interested in freelance work and project collabroation. Let's have a <a href="#page4">coffee chat</a>!</p>
 
+        <a href="https://drive.google.com/file/d/15CMoMggsatIJUjOhaTY3QSW6mULCTRy3/view?usp=sharing" target='_blank' class = 'resume'>📜 R e s u m e ➣</a>
         <br>
-        <a href="https://drive.google.com/file/d/15CMoMggsatIJUjOhaTY3QSW6mULCTRy3/view?usp=sharing" target='_blank' class = 'resume'>📜 Resume ➣</a>
 
       </div>
 
     </div>
 
     <!-- projects section -->
-    <div data-anchor = 'page3' class="section">
+    <div data-anchor = 'page3' class="section projects">
       <h1>🎡 Projects</h1>
       <hr>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
@@ -141,7 +141,7 @@
     </div>
 
     <!-- contact section -->
-    <div data-anchor = 'page4' class="section">
+    <div data-anchor = 'page4' class="section contacts">
       <br>
       <p class='display-5'><mark>🎁 <em>Wanna work with me (or just say hello)? I can be found:</em></mark></p>
       <br>
@@ -180,6 +180,9 @@
     });
     let width = $(window).innerWidth();
     if(width < 900) {
+      $('.landing').before('<br />');
+      $('.nav-link').append('<hr>');
+      $('.container-fluid').css('padding-bottom', '2vh');
       $('#navigation').addClass('fixed-top')
     }
   </script>
