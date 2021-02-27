@@ -18,6 +18,7 @@ body {
 #navigation {
   z-index: 1000;
   padding-left:0;
+  background-color: #FFFCF8
 }
 
 .navbar-nav .nav-item .nav-link {
