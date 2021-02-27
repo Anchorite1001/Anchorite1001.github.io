@@ -59,19 +59,20 @@ body {
   font-size: 90%
 }
 
-.card a, .intro a {
+.card a, .resume {
   text-decoration: none;
   color:black;
   font-family: 'Amatic SC', cursive;
   font-size: 150%;
 }
 
-.intro a {
+.resume {
   font-size: 180%
 }
 
-.card a:hover, .intro a:hover {
+.card a:hover, .resume:hover {
   text-decoration: line-through;
+  color:black;
 }
 
 /* contact */
