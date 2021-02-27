@@ -176,8 +176,13 @@
   <script>
     new fullpage('#fullpage',{
       responsiveWidth:900,
-      css3: true,
+      css3: true
+      }
     });
+    let width = $(window).innerWidth();
+    if(width < 900) {
+      $('#navigation').addClass('fixed-top').css({'background-color':'#FFFDFA', 'padding-bottom': '1vh'});
+    }
   </script>
 
 </body>

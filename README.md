@@ -5,6 +5,7 @@ This is the first portfolio page I make for web developer job application. Comme
 ## Tech Stack
 * HTML5 & CSS
 * Bootstrap
+* jquery
 * fullpage.js
 
 ## Next Step
