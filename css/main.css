@@ -11,7 +11,7 @@ body {
 
 .fp-tableCell {
   vertical-align: baseline;
-  padding-top:6vh
+  padding-top:4vh
 }
 
 /* navbar */
@@ -26,6 +26,12 @@ body {
 
 .navbar-nav .nav-item .nav-link:hover {
   color: #0d6efd
+}
+
+/* about me  */
+.intro p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 110%;
 }
 
 /* projects */
@@ -47,20 +53,25 @@ body {
   font-family: 'Fira Sans', sans-serif;
 }
 
-.card a {
+
+.card-text span {
+  color: #7f7f7f;
+  font-size: 90%
+}
+
+.card a, .intro a {
   text-decoration: none;
   color:black;
   font-family: 'Amatic SC', cursive;
   font-size: 150%;
 }
 
-.card a:hover {
-  text-decoration: line-through;
+.intro a {
+  font-size: 180%
 }
 
-.card-text span {
-  color: #7f7f7f;
-  font-size: 90%
+.card a:hover, .intro a:hover {
+  text-decoration: line-through;
 }
 
 /* contact */
