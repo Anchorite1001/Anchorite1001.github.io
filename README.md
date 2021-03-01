@@ -2,7 +2,7 @@
 
 This is the first portfolio page I make for web developer job application. Comments and suggestions are welcome!
 
-Check my portfolio [here](https://anchorite1001.github.io/yangwu/).
+Check my portfolio [here](https://anchorite1001.github.io).
 
 ## Tech Stack
 * HTML5 & CSS
