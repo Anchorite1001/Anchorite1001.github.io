@@ -19,7 +19,7 @@
   <!-- navbar -->
   <nav id = 'navigation' class = 'navbar navbar-expand-lg container navbar-light'>
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id = 'collapsibleNavbar'>
@@ -180,11 +180,11 @@
     });
     let width = $(window).innerWidth();
     if(width < 900) {
-      $('.landing').before('<br />');
+      $('.landing').before('<br>');
       $('.nav-link').append('<hr>');
-      $('.container-fluid').css('padding-bottom', '1vh');
       $('#navigation').addClass('fixed-top');
       $('.yangwuimg').css('width', '50px');
+      $('.navbar-toggler').css({'display':'block', 'margin': '0 auto', 'border': 'none'})
     }
   </script>
 
